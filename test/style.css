@@ -1,0 +1,211 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 1440px;
+    
+}
+
+.pricing__container {
+    width: 1280px;
+    margin: 0px 80px 0px 80px;
+
+}
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 144px 0px;
+}
+
+.pricing__pricing-logo {
+    padding: 4px 12px 4px 12px;
+    background: #DDF0A7; 
+    border-radius: 64px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+    
+}
+
+.pricing__title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    margin: 0px 0px 24px 0px;
+}
+
+.pricing__text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #49616E;
+}
+
+.pricing__list {
+    display: flex;
+    display: flex;
+    width: 1280px;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+
+.pricing-tariff {
+    width: 100%;
+    height: 100%;
+    background: #162E3C; 
+    color: #FFF;
+    border-radius: 32px;
+}
+
+.pricing-tariff__price {
+    display: flex;
+}
+
+.pricing-tariff_theme_green {
+    background-color: #DDF0A7;
+    margin: -64px 33px 0px 33px;
+    color: #162E3C;
+}
+
+
+.pricing-tariff__image {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 0px 32px 0px;
+}
+
+.pricing-tariff__title {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0px 0px 8px 0px;
+}
+
+.pricing-tariff__content {
+    margin: 32px 32px 0px 32px;
+    padding: 0px 0px 112px 0px;
+}
+
+.pricing-tariff_size_b .pricing-tariff__content {
+    margin: 32px 32px 0px 32px;
+    padding: 0px 0px 32px 0px ;
+}
+
+.pricing-tariff__price {
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-items: end;
+    margin: 0px 0px 16px 0px;
+}
+
+.pricing-tariff__amount {
+    font-size: 56px;
+    line-height: 67.2px;
+    margin: 0px 5px -4px 0px;
+
+}
+.pricing-tariff__price-month {
+    font-size: 32px;
+    line-height: 41.6px;
+
+    
+}
+
+.pricing-tariff__price-year {
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 24px;
+    margin: 0px 0px 32px 0px;
+}
+
+.pricing-tariff__line {
+
+    border-top: 1px solid #223E4E;
+    margin: 0px 0px 32px 0px;
+}
+
+.pricing-tariff__includes {
+    font-size: 15px;
+    line-height: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px 0px 16px 0px;
+}
+
+.pricing-tariff__list {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px 8px 0px;
+}
+
+.pricing-tariff__item {
+    display: flex;
+    height: 24px;
+    align-items: flex-start; 
+
+}
+
+.pricing-tariff__item:not(:last-child) {
+    margin: 0px 0px 16px 0px;
+    
+}
+
+.pricing-tariff__icon {
+    margin: 0px 16px 0px 0px;
+}
+
+.pricing-tariff__text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pricing-tariff__frame-button {
+    margin: 0px 0px 32px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pricing-tariff__button {
+    border-radius: 64px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 14px 127px;
+    background-color: #DDF0A7;
+    border: 2px solid #DDF0A7; 
+    color: #162E3C;
+}
+
+.pricing-tariff__button_theme_green {
+    
+    
+}
+
+
+.pricing-tariff_theme_green .pricing-tariff__button {
+    background-color: #162E3C;
+    border: 2px solid #162E3C; 
+    color: #FFF;
+    
+}
+.pricing-tariff_theme_green .pricing-tariff__line {
+    border-top: 1px solid #D1E39E;
+}
+
+.pricing-tariff_theme_green .pricing-tariff__content {
+    margin: 32px 32px 0px 32px;
+    padding: 0px 0px 136px 0px;
+}
